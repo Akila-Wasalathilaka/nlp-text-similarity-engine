@@ -1,0 +1,22 @@
+{
+  "name": "humanizer-engine",
+  "version": "1.0.0",
+  "description": "Advanced text humanization engine with multiple writing modes",
+  "main": "dist/index.js",
+  "scripts": {
+    "dev": "tsx watch src/index.ts",
+    "build": "tsc",
+    "start": "node dist/index.js"
+  },
+  "dependencies": {
+    "fastify": "^4.24.3",
+    "@fastify/cors": "^8.4.0",
+    "zod": "^3.22.4",
+    "dotenv": "^16.3.1"
+  },
+  "devDependencies": {
+    "typescript": "^5.2.2",
+    "tsx": "^4.6.0",
+    "@types/node": "^20.8.0"
+  }
+}
